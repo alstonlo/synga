@@ -1,0 +1,38 @@
+name: synga
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - pyg
+dependencies:
+  - python=3.10
+  - pytorch=2.4
+  - pytorch-cuda=12.1
+  - pyg=2.6
+  - lightning
+  - numpy<2
+  - wandb
+  - einops
+  - pandas
+  - polars
+  - jsonargparse
+  - rdkit=2023.9.6
+  - pip
+  - tqdm
+  - networkx
+  - dill
+  - multiprocess
+  - openbabel
+  - qvina=2.1
+  - plotly
+  - botorch
+  - gpytorch
+  - gauche
+  - unidock
+  - openmm
+  - python-lmdb
+  - ambertools
+  - pip:
+      - PyTDC==1.1.14
+      - kaleido
+      - html2image
